@@ -1,18 +1,20 @@
-# Sistema de Processamento de Dados de Veículos
-Este projeto é um sistema para processar e gerenciar dados de veículos de diferentes tipos, como automóveis, motocicletas, caminhões, bicicletas e skates. O sistema utiliza uma arquitetura orientada a objetos com classes que encapsulam e validam os atributos de cada tipo de veículo.
+# Sistema de Gerenciamento de Veículos
+Este projeto é um sistema para processar e gerenciar dados de veículos de diferentes tipos, como automóveis, motocicletas, caminhões, bicicletas e skates. O sistema utiliza uma arquitetura orientada a objetos com classes que encapsulam e validam os atributos de cada tipo de veículo e classes que manipulam os dados de cada tipo de véiculo através de comandos CRUD, uma classe que estabelece a conexão com o banco de dados e uma classe `Main` que abriga um terminal CLI para interação com o usuário.
 
 
 ## 🚀 Começando
 
- A implementação inclui construtores e métodos para gerar comandos `INSERT` adequados para inserir esses dados em um banco de dados.
+A implementação inclui um terminal CLI para navegação entre os métodos CRUD de diversos tipos de veículos para gerar comandos SQL adequados para inserir, atualizar, deletar e ler esses dados em um banco de dados.
   
 
 ### Funcionalidades
 
 - Cadastro de automóveis, motocicletas, caminhões, bicicletas e skates.
-- Geração de comandos `INSERT` para inserção dos dados em tabelas no banco de dados.
+- Geração de comandos `SQL` para tratamento dos dados em tabelas no banco de dados.
 - Validação de atributos obrigatórios e específicos de cada tipo de veículo.
 - Encapsulamento e métodos construtores para cada classe.
+- Conexão com o banco de dados.
+- Terminal CLI para interação com o usuário.
 
   
 
@@ -22,7 +24,8 @@ Para rodar o projeto, você precisará ter o seguinte software instalado:
 
 - **Java JDK** (versão 8 ou superior)
 - **IDE Eclipse** ou outra IDE de sua preferência.
-- Banco de dados relacional (opcional, para testar os comandos `INSERT`).
+- **Banco de dados** construído no seu próprio computador.
+- **Driver JDBC** para estabelecer a conexão com o banco de dados.
 
   
 
@@ -40,13 +43,14 @@ Ferramentas e bibliotecas utilizadas no projeto:
 
 Java SE - Linguagem de programação
 Eclipse IDE - Ambiente de desenvolvimento
+Wampserver - para criação do banco de dados.
 
 
 
 📌 Versão
-- Versão 1.0 - Versão inicial do projeto.
+- Versão 2.0 - Versão atualizada do projeto com implementação de novas funcionalidades.
 
 
 
 ✒️ Autores
-Breno Gustavo Rocha de Almeida - Trabalho inicial - Sistema de Processamento de Dados de Veículos.
+Breno Gustavo Rocha de Almeida - Trabalho inicial - Sistema de Gerenciamento de Veículos.
