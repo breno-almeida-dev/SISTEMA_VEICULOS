@@ -16,7 +16,11 @@ A implementação inclui um terminal CLI para navegação entre os métodos CRUD
 - Conexão com o banco de dados.
 - Terminal CLI para interação com o usuário.
 
-  
+## Funcionamento do programa:
+
+![Imagem do terminal CLI](https://github.com/breno-almeida-dev/SISTEMA_VEICULOS/blob/master/CLI-Veiculo-AF.png)
+
+![Imagem do banco de dados](https://github.com/breno-almeida-dev/SISTEMA_VEICULOS/blob/master/DB-Veiculo-AF.png)
 
 ## 📋 Pré-requisitos
 
