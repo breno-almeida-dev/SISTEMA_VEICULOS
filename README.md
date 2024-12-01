@@ -45,9 +45,9 @@ Para rodar o projeto, você precisará ter o seguinte software instalado:
 🛠️ Construído com
 Ferramentas e bibliotecas utilizadas no projeto:
 
-Java SE - Linguagem de programação
-Eclipse IDE - Ambiente de desenvolvimento
-Wampserver - para criação do banco de dados.
+**Java SE** - Linguagem de programação.
+**Eclipse IDE** - Ambiente de desenvolvimento.
+**Wampserver** - para criação do banco de dados.
 
 
 
