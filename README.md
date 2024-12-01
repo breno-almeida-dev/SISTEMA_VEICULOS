@@ -24,7 +24,7 @@ A implementação inclui um terminal CLI para navegação entre os métodos CRUD
 
 ## 📋 Pré-requisitos
 
-Para rodar o projeto, você precisará ter o seguinte software instalado:
+Para rodar o projeto, você precisará ter os seguintes softwares instalados:
 
 - **Java JDK** (versão 8 ou superior)
 - **IDE Eclipse** ou outra IDE de sua preferência.
